@@ -6,7 +6,7 @@
 %define		pdir	IPTables
 %define		pnam	ChainMgr
 Summary:	Perl interface to add and delete rules to an iptables chain
-Summary(pl):	Perlowy interfejs do dodawania i usuwania regu³ z ³añcuchów iptables
+Summary(pl.UTF-8):   Perlowy interfejs do dodawania i usuwania reguÅ‚ z Å‚aÅ„cuchÃ³w iptables
 Name:		perl-IPTables-ChainMgr
 Version:	0.4
 Release:	1
@@ -31,11 +31,11 @@ common application of this module is to create a custom chain and then
 add blocking rules to it. Rule additions are (mostly) guaranteed to be
 unique.
 
-%description -l pl
-Perlowy interfejs do dodawania i usuwania regu³ z ³añcuchów iptables.
-Najpopularniejszym zastosowaniem tego modu³u jest tworzenie w³asnego
-³añcucha, a nastêpnie dodawanie do niego regu³ blokuj±cych. Dodawanie
-regu³ gwarantuje (w wiêkszo¶ci) ich unikalno¶æ.
+%description -l pl.UTF-8
+Perlowy interfejs do dodawania i usuwania reguÅ‚ z Å‚aÅ„cuchÃ³w iptables.
+Najpopularniejszym zastosowaniem tego moduÅ‚u jest tworzenie wÅ‚asnego
+Å‚aÅ„cucha, a nastÄ™pnie dodawanie do niego reguÅ‚ blokujÄ…cych. Dodawanie
+reguÅ‚ gwarantuje (w wiÄ™kszoÅ›ci) ich unikalnoÅ›Ä‡.
 
 %prep
 %setup -q -n psad-2.0.1
