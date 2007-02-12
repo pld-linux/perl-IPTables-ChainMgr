@@ -6,7 +6,7 @@
 %define		pdir	IPTables
 %define		pnam	ChainMgr
 Summary:	Perl interface to add and delete rules to an iptables chain
-Summary(pl.UTF-8):   Perlowy interfejs do dodawania i usuwania reguł z łańcuchów iptables
+Summary(pl.UTF-8):	Perlowy interfejs do dodawania i usuwania reguł z łańcuchów iptables
 Name:		perl-IPTables-ChainMgr
 Version:	0.4
 Release:	1
