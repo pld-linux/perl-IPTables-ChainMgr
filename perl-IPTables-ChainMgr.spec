@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	IPTables
 %define		pnam	ChainMgr
 Summary:	Perl interface to add and delete rules to an iptables chain
